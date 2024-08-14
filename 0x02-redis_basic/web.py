@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 '''Request caching and tracking.
 '''
-from functools import wraps
 import redis
 import requests
+from functools import wraps
 from typing import Callable
 
 
